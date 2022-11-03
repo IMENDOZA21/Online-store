@@ -5,12 +5,12 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/IMENDOZA21/ms-course-youtube.git
+          uri: https://github.com/IMENDOZA21/Online-store.git
           searchPaths: config-data
           username: ${GIT_USER:IMENDOZA21}
           password: ${GIT_PASSWORD:bbYtsIJB:v1}
-          default-label: ms-course-youtube
-        default-label: ms-course-youtube
+          default-label: master
+        default-label: master
 
   security:
     user:
